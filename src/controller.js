@@ -45,7 +45,7 @@ const payStack = {
   },
 
   mfoh: async (req, res) => {
-    res.send("Welcome to MFOH! I am healthy!").status(200);
+    res.send("Welcome to MFOH!").status(200);
   },
 };
 
