@@ -9,6 +9,7 @@ const router = require("./routes");
 
 const port = process.env.OUT_PORT || 5000;
 const FRONTEND_URL = process.env.ORIGIN || "http://localhost:5173";
+
 //Parse incoming requests with JSON payloads
 // app.use(bodyParser.json());
 
