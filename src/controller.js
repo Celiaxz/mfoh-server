@@ -8,7 +8,7 @@ const payStack = {
 
     const params = JSON.stringify({
       email: email,
-      amount: 7000 * 100,
+      amount: 15000 * 100,
     });
     console.log("params: ", params);
 
